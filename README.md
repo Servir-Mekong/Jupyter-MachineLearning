@@ -2,8 +2,10 @@
 Generic ML library
 
 **1: Download and install ANACONDA**
+
 https://www.anaconda.com/download/#windows
-*For windows users do not add to path
+
+--For windows users do not add to path
 
 **2: start Anaconda prompt in admin privilege88
 ```
