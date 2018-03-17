@@ -5,8 +5,11 @@ Generic ML library
 https://www.anaconda.com/download/#windows
 *For windows users do not add to path
 
-**2: start Anaconda prompt in admin privilege **
-conda config --add channels conda-forge (THIS IS A PACKAGE MANAGEMENT)
+**2: start Anaconda prompt in admin privilege88
+```
+conda config --add channels conda-forge 
+```
+(THIS IS A PACKAGE MANAGEMENT)
 
 //START HERE IF YOU HAVE ANACONDA INSTALLED
 
