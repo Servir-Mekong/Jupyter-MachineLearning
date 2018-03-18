@@ -1,23 +1,26 @@
 # Jupyter-MacineLearning
 Generic ML library
 
-**1: Download and install ANACONDA**
+**1: Download and install ANACONDA [(Select 3.5 python and 64 bit for ML installation)](https://www.anaconda.com/download/#windows)**
 
-https://www.anaconda.com/download/#windows
+NOTE: DO NOT CHECK ANYHTING UNDER THE ADVANCED OPTIONS TAB DURING INSTALL (This will destroy your ArcGIS Installation)
 
-//For windows users do not add to path
+**2: Add Community package management system**
 
-**2: start Anaconda prompt in admin privilege**
+Start "Anaconda Prompt" with admin privileges
 ```
-conda config --add channels conda-forge 
+conda config --prepend channels conda-forge
 ```
-(THIS IS A PACKAGE MANAGEMENT)
-
 //START HERE IF YOU HAVE ANACONDA INSTALLED
 
-**3: Select Environment to install ML**
+**3: Create Tensorflow environment**
 ```
-conda activate gee
+conda create -n tfe python=3.5
+conda activate tfe
+conda install jupyter
+conda install panda
+conda install matplotlib
+conda install numpy
 ```
 
 **4. Install [Tesorflow](https://www.tensorflow.org/)**
