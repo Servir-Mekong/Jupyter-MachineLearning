@@ -18,7 +18,7 @@ conda config --prepend channels conda-forge
 conda create -n tfe python=3.5
 conda activate tfe
 conda install jupyter
-conda install panda
+conda install pandas
 conda install matplotlib
 conda install numpy
 conda install scikit-learn
@@ -33,3 +33,19 @@ conda install tensorflow
 ```
 conda install keras
 ````
+
+**6: Link a IPython kernel to the gee environment**
+```
+python -m ipykernel install --name tfe --display-name "Python (tensorflow)"
+```
+Deactivate gee environment
+```
+conda deactivate
+```
+
+**7: Start Jupyter environment by running the command**
+
+change directory to your notebook folder location
+```
+jupyter lab
+```
