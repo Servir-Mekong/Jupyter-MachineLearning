@@ -21,6 +21,7 @@ conda install jupyter
 conda install panda
 conda install matplotlib
 conda install numpy
+conda install scikit-learn
 ```
 
 **4. Install [Tesorflow](https://www.tensorflow.org/)**
